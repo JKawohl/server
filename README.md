@@ -1,6 +1,6 @@
 # ownCloud: Server
 
-[![](https://images.microbadger.com/badges/image/owncloud/server.svg)](https://microbadger.com/images/owncloud/server "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/owncloud/server:9.1.2.svg)](https://microbadger.com/images/owncloud/server:9.1.2 "Get your own image badge on microbadger.com")
 
 This is our ownCloud image for the community edition, it is based on our [base container](https://registry.hub.docker.com/u/owncloud/base/). Additionally we have also preinstalled the richdocuments app.
 
@@ -10,7 +10,7 @@ This is our ownCloud image for the community edition, it is based on our [base c
 ```bash
 docker run -ti \
   --name owncloud \
-  owncloud/server:latest
+  owncloud/server:9.1.2
 ```
 
 
